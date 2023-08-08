@@ -1,7 +1,7 @@
 {
-  "name": "express-typescript",
+  "name": "express-typescript-discovery",
   "version": "1.0.0",
-  "description": "",
+  "description": "Here is a basic plan. We give you a basic discovery tool, which is the best tool. Have fun exploring the node world",
   "main": "./src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "dev": "nodemon ./src/bin/www.ts",
     "build": "ts-node build.ts"
   },
-  "author": "sajjad-bazrafshan",
+  "author": "sajjad-bn",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
