@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node ./src/bin/www",
-    "dev": "nodemon ./src/bin/www.ts"
+    "dev": "nodemon ./src/bin/www.ts",
+    "build": "ts-node build.ts"
   },
   "author": "sajjad-bazrafshan",
   "license": "ISC",
@@ -26,6 +27,8 @@
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/morgan": "^1.9.4",
+    "esbuild": "^0.19.0",
+    "esbuild-plugin-tsc": "^0.4.0",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "tsc": "^2.0.4"
