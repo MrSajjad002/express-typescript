@@ -1,5 +1,5 @@
 {
-  "name": "express-typescript-discovery",
+  "name": "express-typescript-basic",
   "version": "1.0.0",
   "description": "Here is a basic plan. We give you a basic discovery tool, which is the best tool. Have fun exploring the node world",
   "main": "./src/app.ts",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "commander": "^11.0.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -33,4 +34,5 @@
     "ts-node": "^10.9.1",
     "tsc": "^2.0.4"
   }
+  
 }
